@@ -1,0 +1,50 @@
+/* ملف: page3.css */
+
+/* الخلفية الأساسية */
+body {
+    background: #f8f9fa;
+}
+
+/* قائمة الأسعار - عرض 50% في الوسط */
+.price-list {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* تنسيقات إضافية للكروت */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيقات للصور */
+.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* تنسيقات النجوم */
+.text-warning {
+    font-size: 1.2rem;
+}
+
+/* تنسيق زر الحجز */
+.btn-danger {
+    padding: 12px 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(220, 53, 69, 0.3);
+}
